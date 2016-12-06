@@ -1,5 +1,5 @@
 
-class Walker {
+class RandomWalker {
   float x = width/2;
   float y = height/2;
 
@@ -22,11 +22,11 @@ class Walker {
   }
 }
 
-Walker w;
+RandomWalker w;
 
 void setup() {
   surface.setSize(640, 360);
-  w = new Walker();
+  w = new RandomWalker();
   background(255);
 }
 
